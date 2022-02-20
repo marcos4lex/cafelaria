@@ -100,11 +100,6 @@ window.addEventListener('scroll', scrollUp)
 const selectedIcon = localStorage.getItem('selected-icon')
 
 
-
-/*=============== LIKE ANIMATION ===============*/
-
-
-
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 const sr = ScrollReveal({
     origin: 'top',

@@ -776,7 +776,6 @@ footer{
   padding: .5rem;
   border-radius: .25rem;
   z-index: var(--z-tooltip);
-  opacity: .8;
   transition: .4s;
 }
 

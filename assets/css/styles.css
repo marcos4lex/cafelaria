@@ -598,6 +598,8 @@ img{
 /*=============== CONTACT ===============*/
 .contact__container{
   row-gap: 3.5rem;
+  margin-top: -4rem;
+  margin-bottom: 3rem;
 }
 
 .contact__data{
@@ -686,34 +688,18 @@ img{
 }
 
 /*=============== FOOTER ===============*/
+footer{  
+  background-color: var(--first-color-lighten);
+}
 .footer__container{
   row-gap: 2rem;
-}
-
-.footer__logo{
-  display: inline-flex;
-  align-items: center;
-  column-gap: .5rem;
-  color: var(--title-color);
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: -1px;
-  margin-bottom: var(--mb-2-5);
-  transition: .3s;
-}
-
-.footer__logo-icon{
-  font-size: 1.15rem;
-  color: var(--main-color);
-}
-
-.footer__logo:hover{
-  color: var(--main-color);
+  margin-top: -3rem;
+  margin-bottom: 5rem;
 }
 
 .footer__title{
   font-size: var(--h3-font-size);
-  margin-bottom: var(--mb-1-5);
+  margin-bottom: var(--mb-1);
 }
 .footer__content .footer__title h3{  
   font-family: var(--title-font);

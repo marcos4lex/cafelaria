@@ -691,6 +691,9 @@ img{
 footer{  
   background-color: var(--first-color-lighten);
 }
+footer .link a{
+  color: var(--text-color);
+}
 .footer__container{
   row-gap: 2rem;
   margin-top: -3rem;

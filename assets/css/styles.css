@@ -468,6 +468,7 @@ img{
   justify-self: center;
   margin-bottom: var(--mb-0-75);
   transition: .3s;
+  cursor: pointer;
 }
 
 .product__title,
@@ -672,6 +673,11 @@ img{
   border: none;
   outline: none;
   z-index: 1;
+}
+
+.align-contact{
+  margin-top: 70px;
+  padding-bottom: 80px;
 }
 
 .contact__label{

@@ -884,6 +884,9 @@ footer .link a{
   }.about__img{
     height: 300px;
   }
+  .contact__container{
+    margin-top: -140px;
+  }
 }
 
 @media screen and (min-width: 767px){
@@ -950,6 +953,9 @@ footer .link a{
   .about__img{
     width: 350px;
     height: 320px;
+  }
+  .align-contact{
+    padding-top: 130px;
   }
 }
 

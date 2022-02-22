@@ -379,6 +379,11 @@ img{
 /*=============== ABOUT ===============*/
 .about__container{
   row-gap: 2rem;
+}.align-about{
+  padding-bottom: 60px;
+  margin-top: 10px;
+}.main__about{
+  background: #E6EFEB;
 }
 
 .about__img{
@@ -870,6 +875,16 @@ footer .link a{
     width: 400px;
   }
 }
+@media screen and (max-width: 766px){  
+  .align-about{
+    margin-top: -140px;
+  }.about__title{
+    text-align: center;
+    font-size: 25px;
+  }.about__img{
+    height: 300px;
+  }
+}
 
 @media screen and (min-width: 767px){
   body{
@@ -899,6 +914,9 @@ footer .link a{
   .footer__container{
     grid-template-columns: repeat(2, 1fr);
   }
+  .align-about{
+    margin-top: 40px;
+  }
   
   .home{
     padding: 10rem 0 5rem;
@@ -923,6 +941,15 @@ footer .link a{
   }
   .footer__subscribe{
     width: initial;
+  }
+  .about__img{
+    height: 300px;
+  }
+}
+@media screen and (max-width: 991px){
+  .about__img{
+    width: 350px;
+    height: 320px;
   }
 }
 
@@ -952,7 +979,10 @@ footer .link a{
   }
 
   .about__img{
-    width: 380px;
+    width: 445px;
+    height: 370px;
+  }.align-about{
+    margin-top: 20px;
   }
 
   .steps__container{
@@ -1030,6 +1060,9 @@ footer .link a{
 
   .about__container{
     column-gap: 7rem;
+  }.align-about{
+    padding-bottom: 60px;
+    margin-top: 20px;
   }
 
   .scrollup{

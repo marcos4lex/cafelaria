@@ -680,6 +680,10 @@ img{
   padding-bottom: 80px;
 }
 
+.main__contact{
+  background: #E6EFEB;
+}
+
 .contact__label{
   position: absolute;
   top: .75rem;

@@ -73,6 +73,8 @@
 
 html{
   scroll-behavior: smooth;
+  scrollbar-width: thin;
+  scrollbar-color: var(--first-color-alt) #F0F0F0;
 }
 
 body,

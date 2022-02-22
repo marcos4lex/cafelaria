@@ -517,10 +517,24 @@ img{
 .product__card:hover .product__img{
   transform: translateY(-.5rem);
 }
+/*--=============== BOOKS FOR A BETTER WORLD ==============--*/
+.better__card{
+  cursor: pointer;
+}
+.better__card img{
+  border-radius: 1rem;
+  width: 100%;
+}.better__card{
+  background-color: var(--container-color);
+  padding: 5px 5px 0px 5px;
+  border-radius: 1rem;
+}
+
 
 /*=============== QUESTIONS ===============*/
 .questions{
   background-color: var(--first-color-lighten);
+  margin-top: 50px;
 }
 
 .questions__container{
@@ -689,7 +703,7 @@ img{
 
 /*=============== FOOTER ===============*/
 footer{  
-  background-color: var(--first-color-lighten);
+  background-color: var(--body-color);
 }
 footer .link a{
   text-decoration: none;

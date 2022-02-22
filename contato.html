@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.jpg" type="image/x-icon">
+  <!--=============== MAIN CSS ===============-->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!--=============== REMIX ICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+  <title>Cafelaria - A sua livraria</title>
+</head>
+
+<body>
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">
+        <h1>Cafelaria</h1> 
+      </a>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Início</a>
+          </li>
+          <li class="nav__item">
+            <a href="about.html" class="nav__link">Sobre</a>
+          </li>
+          <li class="nav__item">
+            <a href="index.html" class="nav__link">Categorias</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link active-link">Contato</a>
+          </li>
+        </ul>
+
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+      </div>
+
+      <div class="nav__btns">
+        <i class="ri-search-line search-ico" id="search-ico">
+        </i>
+        <i class="ri-shopping-bag-line shopping-bag" id="shopping-bag">
+        </i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--==================== CONTACT ====================-->
+    <section class="contact section container" id="contact" style="padding-top: 250px;padding-bottom: 80px;">                
+      <div class="contact__container grid">
+        <div class="contact__box">
+          <h2 class="section__title">
+            Sinta-se a vontade para<br>
+            entrar em contato conosco.
+          </h2>
+
+          <div class="contact__data">
+            <div class="contact__information">
+              <h3 class="contact__subtitle">Mande-nos uma mensagem no whatsapp</h3>
+              <span class="contact__description">
+                <i class="ri-whatsapp-line contact__icon"></i>
+                +55 21 9888-6777
+              </span>
+            </div>
+
+            <div class="contact__information">
+              <h3 class="contact__subtitle">Nos escreva um e-mail</h3>
+              <span class="contact__description">
+                <i class="ri-mail-line contact__icon"></i>
+                eueeumesmo@email.com
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact__form">
+          <div class="contact__inputs">
+            <div class="contact__content">
+              <input type="email" placeholder=" " class="contact__input">
+              <label for="" class="contact__label">Email</label>
+            </div>
+
+            <div class="contact__content">
+              <input type="text" placeholder=" " class="contact__input">
+              <label for="" class="contact__label">Assunto</label>
+            </div>
+
+            <div class="contact__content contact__area">
+              <textarea name="message" placeholder=" " class="contact__input"></textarea>                              
+              <label for="" class="contact__label">Mensagem</label>
+            </div>
+          </div>
+
+          <button class="button button--flex">
+            Envie
+            <i class="ri-arrow-right-up-line button__icon"></i>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <h3 class="footer__title">
+            Nosso Newsletter
+          </h3>
+          
+          <h3 class="footer__content">
+            Inscreva-se em nosso newsletter <br> E receba as ultimas novidades
+          </h3>
+
+          <div class="footer__subscribe">
+            <input type="email" placeholder="Enter your email" class="footer__input">
+
+            <button class="button button--flex footer__button">
+              Subscribe
+              <i class="ri-arrow-right-up-line button__icon"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Nosso Endereço</h3>
+
+          <ul class="footer__data">
+            <li class="footer__information button--flex button--link link"><a href="https://www.google.com/maps/place/Pra%C3%A7a+Bar%C3%A3o+de+Tef%C3%A9/@-22.8704235,-43.7780612,18.25z/data=!4m13!1m7!3m6!1s0x9c077168631157:0xbf83d242ae07f5d2!2zSXRhZ3Vhw60sIFJK!3b1!8m2!3d-22.8631923!4d-43.7779091!3m4!1s0x9bf8893e40c279:0x8e7071ad093b41f6!8m2!3d-22.8699957!4d-43.7778936"><i class="ri-map-pin-line" style="padding-right: 3px;"></i>Praça Barão de Tefé</a></li>
+            <li class="footer__information">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Centro de Itaguaí, RJ</li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Contate-nos</h3>
+
+          <ul class="footer__data">
+            <li class="footer__information">+55 21 9888-6777</li>
+                      
+            <div class="footer__social">
+              <a href="https://www.facebook.com/" class="footer__social-link">
+                <i class="ri-facebook-fill"></i>
+              </a>
+              <a href="https://www.instagram.com/" class="footer__social-link">
+                <i class="ri-instagram-line"></i>
+              </a>
+              <a href="https://twitter.com/" class="footer__social-link">
+                <i class="ri-whatsapp-fill"></i>
+              </a>
+              <a href="https://youtube.com/" class="footer__social-link">
+                <i class="ri-youtube-fill"></i>
+              </a>
+            </div>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">
+            Aceitamos todos os cartões
+          </h3>
+
+          <div class="footer__cards">
+            <img src="assets/img/card1.png" alt="" class="footer__card">
+            <img src="assets/img/card2.png" alt="" class="footer__card">
+            <img src="assets/img/card3.png" alt="" class="footer__card">
+            <img src="assets/img/card4.png" alt="" class="footer__card">
+          </div>
+        </div>
+      </div>
+        <p class="footer__copy">Developed by @marcos4lex</p>
+    </footer>
+      
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up"> 
+      <i class="ri-arrow-up-fill scrollup__icon"></i>
+    </a>
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>        
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>  
+</body>
+</html>

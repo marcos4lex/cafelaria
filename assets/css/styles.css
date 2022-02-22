@@ -614,6 +614,14 @@ img{
 .accordion-open .questions__icon{
   transform: rotate(45deg);
 }
+/*=============== DEPARTMENT ===============*/
+.main__department{
+  height: 600px;
+  background: #E6EFEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /*=============== CONTACT ===============*/
 .contact__container{

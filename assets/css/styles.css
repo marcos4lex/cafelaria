@@ -394,6 +394,13 @@ img{
   justify-self: center;
   margin-top: 6rem;
 }
+.about__cafelaria{
+  max-width: 800px;
+  max-height: 450px;
+}
+.cafelaria__img{
+  width: 100%;
+}
 
 .about__title{
   margin-bottom: var(--mb-1);
@@ -897,7 +904,7 @@ footer .link a{
 }
 @media screen and (max-width: 766px){  
   .align-about{
-    margin-top: -140px;
+    margin-top: -40px;
   }.about__title{
     text-align: center;
     font-size: 25px;

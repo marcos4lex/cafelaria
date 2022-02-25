@@ -93,6 +93,6 @@ const sr = ScrollReveal({
 sr.reveal(`.home__data`)
 sr.reveal(`.home__img`, {delay: 500})
 sr.reveal(`.home__social`, {delay: 600})
-sr.reveal(`.better__card, .about__img, .contact__box`,{origin: 'left'})
+sr.reveal(`.cafelaria__img, .better__card, .about__img, .contact__box`,{origin: 'left'})
 sr.reveal(`.main__categories, .about__data, .contact__form`,{origin: 'right'})
 sr.reveal(`.categories__card, .product__card, .questions__group, .footer`,{interval: 100})

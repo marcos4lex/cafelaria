@@ -560,6 +560,25 @@ img{
 .product__card:hover .product__img{
   transform: translateY(-.5rem);
 }
+
+/*--==================== PRODUCT BUTTONS =================--*/
+.button-container{
+  display: flex;
+  justify-content: center;
+  margin-top: -15px;
+  width: 100%;
+}
+.button-content button{
+  align-items: center;
+  padding: 10px 10px 5px 10px;
+  margin-right: 8px;
+  background-color: var(--main-color);
+  color: var(--body-color);
+  border-radius: 10px;
+}
+
+
+
 /*--=============== BOOKS FOR A BETTER WORLD ==============--*/
 .better__card{
   cursor: pointer;

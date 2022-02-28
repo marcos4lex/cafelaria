@@ -195,10 +195,12 @@
         </h2>
 
         <p class="product__description">
-          Que tal começar o mês colocando a leitura em dia? Para te ajudar nessa missão, preparamos uma lista com 6 livros incríveis que vão garantir ótimos momentos.
+          Que tal começar o mês colocando a leitura em dia? Para te ajudar nessa missão, 
+          preparamos uma lista com 6 livros incríveis que vão garantir ótimos momentos.
         </p>
 
-        <div class="product__container grid">
+        <!------------------ FIRST CONTENT-------------------------->
+        <div class="product__container grid tabcontent" id="first-content">
           <article class="product__card">
             <img src="assets/img/l1.png" alt="" class="product__img">
 
@@ -282,8 +284,111 @@
               <i class="ri-shopping-bag-line"></i>
             </button>
           </article>
+        </div> <!-- product__container grid London-->
+        <!------------------ END OF FIRST CONTENT-------------------------->
 
-        </div> <!-- product__container grid-->
+        <!------------------ SECOND CONTENT ------------------------------->
+        <div class="product__container grid tabcontent" id="second-content">
+
+          <article class="product__card">
+            <img src="assets/img/l5.png" style="width: 300px;padding-bottom: 10px;padding-top: 10px;" alt="" class="product__img">
+
+            <h3 class="product__title">Box O Senhor Dos Anéis + O Hobbit</h3>
+            <span class="product__price">R$179,00</span>
+
+            <button class="button--flex like__button">
+              <i class="ri-heart-line"></i>
+            </button>
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <img src="assets/img/l3.png" style="height: 230px; width: 200px;"alt="" class="product__img">
+
+            <h3 class="product__title">A Origem das Espécies - Charles Darwin</h3>
+            <span class="product__price">R$69,41</span>
+
+            <button class="button--flex like__button">
+              <i class="ri-heart-line"></i>
+            </button>
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <img src="assets/img/l1.png" alt="" class="product__img">
+
+            <h3 class="product__title" style="padding: 5px;">Star Wars - A trilogia</h3>
+            <span class="product__price">R$45,90</span>
+
+            <button class="button--flex like__button">
+              <i class="ri-heart-line"></i>
+            </button>
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <img src="assets/img/l6.png" alt="" class="product__img">
+
+            <h3 class="product__title">A História do Universo para quem tem pressa</h3>
+            <span class="product__price">R$21,46</span>
+
+            <button class="button--flex like__button">
+              <i class="ri-heart-line" id="theme-button"></i>
+            </button>
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <img src="assets/img/l4.png" alt="" class="product__img">
+
+            <h3 class="product__title">O segredo de Copérnico</h3>
+            <span class="product__price">R$20,00</span>
+
+            <button class="button--flex like__button">
+              <i class="ri-heart-line"></i>
+            </button>
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+
+          <article class="product__card">
+            <img src="assets/img/l2.jpeg" alt="" class="product__img">
+
+            <h3 class="product__title">O Guia do Mochileiro das Galáxias</h3>
+            <span class="product__price">R$53,90</span>
+
+            <button class="button--flex like__button">
+              <i class="ri-heart-line"></i>
+            </button>
+            <button class="button--flex product__button">
+              <i class="ri-shopping-bag-line"></i>
+            </button>
+          </article>
+        </div> <!-- product__container grid London-->
+        <!------------------  END OF SECOND CONTENT-------------------------->
+
+        <!------------- BUTTONS TO CHANGE BETWEEN THE CONTENT --------------->
+        <div class="button-container">
+          <div class="button-content">
+            <button class="tablink" onclick="openContent('first-content')" id="defaultOpen">
+              <i class="ri-arrow-left-s-line"></i>
+            </button>
+            <button class="tablink" onclick="openContent('second-content')">
+              <i class="ri-arrow-right-s-line"></i>
+            </button>
+          </div>
+        </div>
+        
+
       </section> <!-- product section container-->
 
       <!--=============== BOOKS FOR A BETTER WORLD ==============-->
@@ -294,17 +399,43 @@
           </h2>
 
           <div class="categories__container grid">
-            <div class="better__card">
-              <img src="assets/img/b1.webp">
+            <div class="categories__card">
+              <div class="categories__card-number">
+                <img src="assets/img/b1.webp">
+              </div>
+              <p class="categories__card-description">
+                &nbsp;&nbsp;Celebrado no Brasil em novembro, o Mês da Consciência Negra promove a reflexão sobre o racismo estrutural no Brasil e homenageia a trajetória de Zumbi dos Palmares, líder do Quilombo dos Palmares e símbolo da luta e resistência dos negros escravizados no país. Alguns livros sobre o tema podem nos ajudar a entender melhor o racismo e as formas de combatê-lo no dia a dia.
+              </p><br>
+              <a href="#" class="button--link button--flex">
+                Confira<i class="ri-arrow-right-down-line button__icon"></i>
+              </a>
             </div>
 
-            <div class="better__card">
-              <img src="assets/img/b2.webp">
+            <div class="categories__card">
+              <div class="categories__card-number">
+                <img src="assets/img/b2.webp">
+              </div>
+              <p class="categories__card-description">
+                &nbsp;&nbsp;A velocidade com que as mudanças climáticas e o aquecimento global crescem é cada vez maior. Fotos que comparam a atualidade com o passado e as previsões para o futuro assustam, ainda mais depois dos cientistas nos revelarem que esses acontecimentos são resultado da atividade humana. Pensando nisso, fizemos uma lista de livros sobre o assunto para quem quer começar a estudá-lo ou para aqueles que gostariam de se aprofundar mais na área.
+              </p><br>
+              <a href="#" class="button--link button--flex">
+                Confira<i class="ri-arrow-right-down-line button__icon"></i>
+              </a>
             </div>
 
-            <div class="better__card">
-              <img src="assets/img/b3.webp">
+            <div class="categories__card">
+              <div class="categories__card-number">
+                <img src="assets/img/b3.webp">
+              </div>
+              <p class="categories__card-description">
+                &nbsp;&nbsp;Veja os melhores livros sobre feminismo e conheça mais sobre essa causa, bem como sobre os desafios que as mulheres enfrentam em sua jornada por igualdade de gênero. Há opções que vão de literatura clássica até as mais contemporâneas. E pra finalizar, autora nigeriana Chimamanda Ngozi Adichie recita:
+                <em>“Feminista: a pessoa que acredita na igualdade social, política e econômica entre os sexos.”</em>
+              </p><br>
+              <a href="#" class="button--link button--flex">
+                Confira<i class="ri-arrow-right-down-line button__icon"></i>
+              </a>
             </div>
+
           </div>
         </div>
       </section>

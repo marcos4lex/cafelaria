@@ -110,9 +110,24 @@ function filterFunction() {
   }
 }
 
-/*=============== GRADES ===============*/
+/*======= BUTTON TO CHANGE THE PRODUCT CONTENT ==========*/
 
+function openContent(content) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(content).style.display = "grid";
+  elmnt.style.backgroundColor = color;
 
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 
 
 /*=============== SOME ANIMATIONS ===============*/
@@ -122,4 +137,4 @@ sr.reveal(`.home__img`, {delay: 500})
 sr.reveal(`.home__social`, {delay: 600})
 sr.reveal(`.cafelaria__img, .better__card, .about__img, .contact__box`,{origin: 'left'})
 sr.reveal(`.main__categories, .about__data, .contact__form`,{origin: 'right'})
-sr.reveal(`.categories__card, .product__card, .questions__group, .footer`,{interval: 100})
+sr.reveal(`.categories__card, .questions__group, .footer`,{interval: 100})

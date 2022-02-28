@@ -115,14 +115,52 @@ img{
   height: auto;
 }
 
-/*=============== THEME ===============*/
+/*=============== NAV BTN ===============*/
 
-.nav__btns{
+.nav__btn{
   display: inline-flex;
   align-items: center;
   column-gap: 1.4rem;
   font-size: 1.25rem;
   cursor: pointer;
+}
+
+/*=============== SEARCH BTN ===============*/
+.nav__btn form{
+  margin-top: 5px;
+}
+.nav__btn form button{
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  background-color: var(--body-color);
+}
+.nav__btn form button a{
+  color: var(--title-color);
+  text-decoration: none;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -170px;
+  background-color: #f6f6f6;
+  overflow: auto;
+  border-radius: 20px;
+  border: 1px solid var(--main-color);
+}
+.dropdown-content input {
+  width: 200px;
+  box-sizing: border-box;
+  font-size: 16px;
+  padding: 8px 20px 8px 20px;
+  border: none;
+}
+.show {
+  display: block;
+}
+#myInput:focus {
+  outline: 3px solid #ddd;
 }
 
 /*=============== REUSABLE CSS CLASSES ===============*/
@@ -164,7 +202,7 @@ img{
   left: 0;
   z-index: var(--z-fixed);
   transition: .4s; /*For animation dark mode*/
-}
+} 
 
 /*=============== NAV ===============*/
 .nav{

@@ -40,11 +40,19 @@
           </div>
         </div>
 
-        <div class="nav__btns">
-          <i class="ri-search-line search-ico" id="search-ico">
-          </i>
-          <i class="ri-shopping-bag-line shopping-bag" id="shopping-bag">
-          </i>
+        <div class="nav__btn">
+          <form action="search" required>
+            <button>
+              <a href="#">
+                <i class="ri-search-line search-ico" onclick="myFunction()" id="myInput"></i>
+              </a>     
+            </button> 
+            <div id="myDropdown" class="dropdown-content">
+              <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+            </div>          
+          </form>          
+          
+          <i class="ri-shopping-bag-line shopping-bag" id="shopping-bag"></i>         
 
           <div class="nav__toggle" id="nav-toggle">
             <i class="ri-menu-line"></i>

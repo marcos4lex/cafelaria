@@ -126,6 +126,7 @@ img{
 }
 
 /*=============== SEARCH BTN ===============*/
+
 .nav__btn form{
   margin-top: 5px;
 }
@@ -162,6 +163,11 @@ img{
 #myInput:focus {
   outline: 3px solid #ddd;
 }
+/*=============== BAG BTN ===============*/
+.shopping-bag{
+  color: black;
+}
+
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{

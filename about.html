@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -124,7 +124,8 @@
         </h3>
 
         <div class="footer__subscribe">
-          <input type="email" placeholder="Enter your email" class="footer__input">
+          <input type="email" placeholder="Enter your email" class="footer__input" required
+          oninvalid="this.setCustomValidity('Não esqueça do seu e-mail')" oninput="this.setCustomValidity('')">
 
           <button class="button button--flex footer__button">
             Subscribe

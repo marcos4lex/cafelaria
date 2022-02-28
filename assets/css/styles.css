@@ -562,17 +562,6 @@ img{
 }.like__button:hover{
   background-color: var(--first-color-alt);
 }
-
-.product__circle{
-  width: 90px;
-  height: 90px;
-  background-color: var(--first-color-lighten);
-  border-radius: 50%;
-  position: absolute;
-  top: 18%;
-  left: 5%;
-}
-
 .product__card:hover .product__img{
   transform: translateY(-.5rem);
 }

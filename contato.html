@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -95,17 +95,20 @@
         <form action="" class="contact__form">
           <div class="contact__inputs">
             <div class="contact__content">
-              <input type="email" placeholder=" " class="contact__input" required>
+              <input type="email" placeholder=" " class="contact__input" required
+              oninvalid="this.setCustomValidity('Digite seu email para contato')" oninput="this.setCustomValidity('')"/>
               <label for="" class="contact__label">Email</label>
             </div>
 
             <div class="contact__content">
-              <input type="text" placeholder=" " class="contact__input" required>
+              <input type="text" placeholder=" " class="contact__input" required
+              oninvalid="this.setCustomValidity('Digite um Assunto')" oninput="this.setCustomValidity('')"/>
               <label for="" class="contact__label">Assunto</label>
             </div>
 
             <div class="contact__content contact__area">
-              <textarea name="message" placeholder=" " class="contact__input" required></textarea>                              
+              <textarea name="message" placeholder=" " class="contact__input" required
+              oninvalid="this.setCustomValidity('Não esqueça de sua mensagem')" oninput="this.setCustomValidity('')"></textarea>                              
               <label for="" class="contact__label">Mensagem</label>
             </div>
           </div>
@@ -132,7 +135,8 @@
           </h3>
 
           <div class="footer__subscribe">
-            <input type="email" placeholder="Enter your email" class="footer__input">
+            <input type="email" placeholder="Enter your email" class="footer__input" required
+            oninvalid="this.setCustomValidity('Não esqueça do seu e-mail')" oninput="this.setCustomValidity('')">
 
             <button class="button button--flex footer__button">
               Subscribe

@@ -115,16 +115,6 @@ img{
   height: auto;
 }
 
-/*=============== NAV BTN ===============*/
-
-.nav__btn{
-  display: inline-flex;
-  align-items: center;
-  column-gap: 1.4rem;
-  font-size: 1.25rem;
-  cursor: pointer;
-}
-
 /*=============== SEARCH BTN ===============*/
 
 .nav__btn form{
@@ -217,6 +207,14 @@ img{
 .nav__toggle,
 .nav__close{
   color: var(--title-color);
+}
+
+.nav__btn{
+  display: inline-flex;
+  align-items: center;
+  column-gap: 1.4rem;
+  font-size: 1.25rem;
+  cursor: pointer;
 }
 
 .nav__logo{
@@ -384,7 +382,7 @@ img{
   display: inline-block;
   background-color: var(--main-color);
   color: #FFF;
-  padding: 1rem 1.75rem;
+  padding: 1rem 1.65rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
   transition: .3s;
@@ -451,7 +449,15 @@ img{
 }
 
 
-/*=============== categories ===============*/
+/*=============== CATEGORIES ===============*/
+.main__categories{
+  height: 600px;
+  background: #E6EFEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .categories__bg{
   background-color: var(--main-color);
   padding: 3rem 2rem 2rem;
@@ -561,7 +567,7 @@ img{
   transform: translateY(-.5rem);
 }
 
-/*--==================== PRODUCT BUTTONS =================--*/
+/*--========= PRODUCT BUTTONS ===========--*/
 .button-container{
   display: flex;
   justify-content: center;
@@ -579,7 +585,7 @@ img{
 
 
 
-/*--=============== BOOKS FOR A BETTER WORLD ==============--*/
+/*--======== BOOKS FOR A BETTER WORLD =========--*/
 .better__card{
   cursor: pointer;
 }
@@ -669,14 +675,6 @@ img{
 
 .accordion-open .questions__icon{
   transform: rotate(45deg);
-}
-/*=============== DEPARTMENT ===============*/
-.main__categories{
-  height: 600px;
-  background: #E6EFEB;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /*=============== CONTACT ===============*/
@@ -820,7 +818,7 @@ footer .link a{
 }
 
 .footer__button{
-  padding: 1rem;
+  padding: .8rem;
 }
 
 .footer__data{
@@ -838,7 +836,7 @@ footer .link a{
 }
 
 .footer__social-link{
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: var(--text-color);
   transition: .3s;
 }

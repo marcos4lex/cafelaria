@@ -416,11 +416,15 @@ img{
 }
 
 /*=============== ABOUT ===============*/
+.about__bg{
+    background-color: var(--main-color);
+    margin-top: 6rem;
+    padding: 3rem 2rem 2rem;
+    border-radius: 1rem;
+}
+
 .about__container{
   row-gap: 2rem;
-}.align-about{
-  padding-bottom: 60px;
-  margin-top: 10px;
 }.main__about{
   background: #E6EFEB;
 }
